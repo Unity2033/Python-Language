@@ -1,24 +1,36 @@
 # region 변수
 # 객체를 참조하기 위한 이름으로, 해당 객체의 메모리 위치를 가리킵니다.
 
-switch = False
+# switch = False
 
-size = 10
+# size = 10
 
-friction = 0.5
+# friction = 0.5
 
-message = "File not found."
+# message = "File not found."
 
-print("switch :", switch)
+# container = [10,20,30]
 
-print("size :", size)
+# color = (255,0,0)
 
-print("friction :", friction)
+# direction = {(-1,0) : "left", (0,-1) : "down"}
 
-print("message :", message)
+# print("switch :", switch)
 
+# print("size :", size)
 
-# f-string : 문자열 앞에 f 또는 F를 붙이고, { } 안에 변수나 표현식을 넣으면 그 값이 문자열에 삽입됩니다.
+# print("friction :", friction)
+
+# print("message :", message)
+
+# print("container :", container)
+
+# print("color :", color)
+
+# print("direction :", direction)
+
+# 변수의 경우 새로운 값을 넣어주면 그 변수는 해당 값을 가진 객체를 가리키도록 변경됩니다.
+# endregion
 
 # region 변수의 이름 규칙
 # 1. 변수의 이름은 대소문자를 구분합니다.
@@ -39,4 +51,3 @@ print("message :", message)
 # ex) month9 = "september" 
 # endregion
 
-# endregion
